@@ -24,7 +24,7 @@ You could see this for NoSQL exemple
 https://docs.mongodb.com/realm/sdk/android/
 * */
 
-// View initilisation
+    // View initilisation
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,6 +65,7 @@ https://docs.mongodb.com/realm/sdk/android/
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),SearchActivity.class) ;
+                startActivity(intent);
             }
         });
     }
